@@ -1,0 +1,21 @@
+{
+  "name": "duniagames-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cron": "^1.6.0",
+    "dotenv": "^6.2.0",
+    "telegraf": "^3.25.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
