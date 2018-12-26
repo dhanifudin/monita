@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +15,7 @@
     "axios": "^0.18.0",
     "cron": "^1.6.0",
     "dotenv": "^6.2.0",
+    "node-df": "^0.1.4",
     "telegraf": "^3.25.5"
   },
   "devDependencies": {
