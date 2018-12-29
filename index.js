@@ -12,7 +12,7 @@ const telegram = new Telegram(token);
 const bot = new Telegraf(token, { telegram });
 
 (enableUptime) && require('./lib/uptime')(telegram);
-(enableDf) && require('./lib/df')(bot);
+(enableDf) && require('./lib/df')(bot, telegram);
 
 bot.start((ctx) => ctx.reply('Welcome!'));
 bot.help((ctx) => ctx.reply('Help'));
